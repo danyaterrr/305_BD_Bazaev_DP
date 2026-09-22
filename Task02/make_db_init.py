@@ -31,7 +31,7 @@ tables_config = {
         'schema': 'id INTEGER PRIMARY KEY, user_id INTEGER, movie_id INTEGER, tag TEXT, timestamp INTEGER'
     },
     'users': {
-        'file': 'users.csv',
+        'file': 'users.txt',
         'columns': ['id', 'name', 'email', 'gender', 'register_date', 'occupation'],
         'schema': 'id INTEGER PRIMARY KEY, name TEXT, email TEXT, gender TEXT, register_date TEXT, occupation TEXT'
     }
